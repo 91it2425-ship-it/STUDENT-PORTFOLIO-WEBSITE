@@ -1,6 +1,6 @@
 # 🚀 Multi-Student Portfolio Platform
 
-A modern, responsive, and interactive **multi-student portfolio platform** that automatically generates professional portfolios for multiple students. Simply add student data, and the platform creates complete, personalized portfolios for each student with their projects, skills, experience, and more!
+A modern, responsive, and interactive **multi-student portfolio platform** that automatically generates professional portfolios for multiple students from your college. Simply add student data, and the platform creates a complete, unified directory with college branding.
 
 ---
 
@@ -12,7 +12,6 @@ A modern, responsive, and interactive **multi-student portfolio platform** that 
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Adding Students](#adding-students)
-- [Key Features in Detail](#key-features-in-detail)
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
@@ -45,7 +44,6 @@ Built with modern web technologies, this platform reflects best practices in web
 - ✅ **Auto Portfolio Generation** - Add student data → Automatic portfolio creation
 - ✅ **College Branding** - Centralized college name and branding throughout the platform
 - ✅ **Student Directory** - Browse and filter all student portfolios
-- ✅ **Individual Portfolio Pages** - Each student gets their own dedicated portfolio page
 
 ### Advanced Features
 - 🎨 **Custom Styling** - Modern CSS with animations and transitions
@@ -55,7 +53,6 @@ Built with modern web technologies, this platform reflects best practices in web
 - ♿ **Accessibility** - WCAG compliant for inclusive user experience
 - 🎓 **College Integration** - College information, logos, and branding
 - 📊 **Student Filtering** - Search and filter students by skills, batch, or specialization
-- 🔗 **Dynamic Routing** - Each student has a unique URL for their portfolio
 
 ---
 
@@ -135,7 +132,6 @@ STUDENT-PORTFOLIO-WEBSITE/
 │   ├── pages/               # Page components
 │   │   ├── Home.jsx         # Landing page
 │   │   ├── AllStudents.jsx  # Student directory
-│   │   ├── StudentPortfolio.jsx  # Individual portfolio page
 │   │   └── ...
 │   ├── data/
 │   │   └── students.json    # Student data file
@@ -185,7 +181,6 @@ Add student objects to the `students` array:
   "batch": "2024",
   "specialization": "Computer Science",
   "skills": ["Java", "Python", "React", "Node.js"],
-  "about": "Detailed about section",
   "projects": [
     {
       "id": 1,
@@ -194,8 +189,7 @@ Add student objects to the `students` array:
       "technologies": ["Tech1", "Tech2"],
       "github": "github-repo-link",
       "demo": "live-demo-link",
-      "image": "project-image-url",
-      "achievements": ["Achievement 1", "Achievement 2"]
+      "image": "project-image-url"
     }
   ],
   "experience": [
@@ -210,86 +204,10 @@ Add student objects to the `students` array:
   "social": {
     "github": "github-profile-url",
     "linkedin": "linkedin-profile-url",
-    "twitter": "twitter-handle",
-    "portfolio": "personal-website-url"
-  },
-  "certifications": [
-    {
-      "name": "Certification Name",
-      "issuer": "Issuer Name",
-      "date": "2024",
-      "link": "certification-link"
-    }
-  ]
+    "twitter": "twitter-handle"
+  }
 }
 ```
-
----
-
-## 🎨 Key Features in Detail
-
-### 1. **Landing Page**
-- College name and branding prominently displayed
-- Welcome message
-- Quick navigation to student directory
-- Featured students showcase
-
-### 2. **Student Directory**
-- Grid/list view of all student portfolios
-- Search functionality by student name
-- Filter by batch, skills, or specialization
-- Quick preview cards for each student
-- Links to individual portfolios
-
-### 3. **Individual Student Portfolio**
-Contains the following sections:
-
-#### **Hero Section**
-- Student name and title
-- Professional headshot
-- Brief tagline or headline
-- Quick links to social profiles
-- College affiliation badge
-
-#### **About Section**
-- Personal introduction
-- Career objective
-- Educational background
-- Quick bio
-
-#### **Skills Section**
-- Categorized technical skills (Languages, Frontend, Backend, Tools, Soft Skills)
-- Skill level indicators (optional)
-
-#### **Projects Showcase**
-- Grid layout of projects
-- Project thumbnails
-- Project descriptions
-- Technologies used (badges)
-- Links to GitHub and live demo
-- Key achievements
-
-#### **Experience/Timeline**
-- Chronological work and internship history
-- Interactive timeline design
-- Company details and responsibilities
-- Duration and key achievements
-
-#### **Certifications**
-- Issued certifications
-- Certification date and issuer
-- Links to credential verification
-
-#### **Contact Section**
-- Email contact
-- Social media links (GitHub, LinkedIn, Twitter)
-- Portfolio/website links
-
-#### **Navigation**
-- Sticky navigation bar with college branding
-- Mobile hamburger menu
-- Smooth scroll to sections
-- Active section highlighting
 
 ---
 
@@ -323,18 +241,10 @@ Contains the following sections:
 
 - [ ] Admin dashboard for managing students
 - [ ] Dynamic filtering and search
-- [ ] Student authentication for profile updates
-- [ ] Blog/articles section per student
-- [ ] Testimonials/recommendations section
 - [ ] Analytics and visitor tracking
-- [ ] Email notifications for new students
-- [ ] PDF resume/CV download
-- [ ] Student achievements and awards section
 - [ ] Multilingual support
 - [ ] Dark mode toggle with persistence
-- [ ] Student comparison feature
 - [ ] Integration with GitHub API for live project data
-- [ ] Achievement badges and gamification
 
 ---
 
@@ -376,7 +286,6 @@ This project is open source and available under the MIT License.
 
 **Connect with me:**
 - GitHub: [@91it2425-ship-it](https://github.com/91it2425-ship-it)
-- Portfolio: [Your Portfolio URL]
 
 ---
 
@@ -385,7 +294,6 @@ This project is open source and available under the MIT License.
 For questions, issues, or suggestions:
 - Open an issue on GitHub
 - Reach out via email or social media
-- Check existing documentation
 - Review student data format in `src/data/students.json`
 
 ---
