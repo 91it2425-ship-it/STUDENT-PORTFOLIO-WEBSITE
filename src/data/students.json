@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s1",
+    "name": "Aisha Khan",
+    "batch": "2024",
+    "specialization": "Computer Science",
+    "skills": ["React", "Node.js", "CSS"],
+    "summary": "Front-end developer with a passion for responsive design.",
+    "avatar": "https://i.pravatar.cc/150?img=32",
+    "portfolio": "https://example.com/aisha"
+  },
+  {
+    "id": "s2",
+    "name": "Rohit Sharma",
+    "batch": "2023",
+    "specialization": "Data Science",
+    "skills": ["Python", "Pandas", "ML"],
+    "summary": "Data enthusiast focused on predictive models.",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "portfolio": "https://example.com/rohit"
+  },
+  {
+    "id": "s3",
+    "name": "Priya Patel",
+    "batch": "2025",
+    "specialization": "Design",
+    "skills": ["Figma", "Illustrator", "CSS"],
+    "summary": "UI/UX designer crafting accessible interfaces.",
+    "avatar": "https://i.pravatar.cc/150?img=48",
+    "portfolio": "https://example.com/priya"
+  },
+  {
+    "id": "s4",
+    "name": "Diego Martinez",
+    "batch": "2024",
+    "specialization": "Cybersecurity",
+    "skills": ["Networks", "Linux", "Python"],
+    "summary": "Security-minded engineer building robust solutions.",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "portfolio": "https://example.com/diego"
+  }
+]
