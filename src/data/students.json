@@ -1,0 +1,78 @@
+{
+  "college": {
+    "name": "Shivam Institute of Technology",
+    "logo": "https://dummyimage.com/80x80/1d4ed8/ffffff.png&text=SIT",
+    "website": "https://example.edu",
+    "location": "Bhopal, India",
+    "tagline": "Innovate. Build. Lead.",
+    "description": "A centralized platform showcasing top student portfolios across batches and specializations."
+  },
+  "students": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.edu",
+      "phone": "+91-9000000001",
+      "bio": "Frontend developer focused on accessible and performant web interfaces.",
+      "profileImage": "https://dummyimage.com/480x360/334155/ffffff.png&text=Aarav",
+      "batch": "2024",
+      "specialization": "Computer Science",
+      "skills": ["React", "JavaScript", "TypeScript", "CSS"],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Campus Connect",
+          "description": "A college event collaboration app with role-based access and announcements.",
+          "technologies": ["React", "Node.js", "MongoDB"],
+          "github": "https://github.com/example/campus-connect",
+          "demo": "https://example.com/campus-connect",
+          "image": "https://dummyimage.com/640x360/1e293b/ffffff.png&text=Campus+Connect"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nisha Verma",
+      "email": "nisha.verma@example.edu",
+      "phone": "+91-9000000002",
+      "bio": "Machine learning enthusiast building real-world AI solutions for healthcare analytics.",
+      "profileImage": "https://dummyimage.com/480x360/312e81/ffffff.png&text=Nisha",
+      "batch": "2025",
+      "specialization": "Artificial Intelligence",
+      "skills": ["Python", "TensorFlow", "SQL", "Flask"],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Smart Diagnosis Assistant",
+          "description": "Predictive model for early detection of chronic diseases from patient metrics.",
+          "technologies": ["Python", "TensorFlow", "Pandas"],
+          "github": "https://github.com/example/smart-diagnosis",
+          "demo": "https://example.com/smart-diagnosis",
+          "image": "https://dummyimage.com/640x360/4c1d95/ffffff.png&text=Diagnosis+Assistant"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@example.edu",
+      "phone": "+91-9000000003",
+      "bio": "Full-stack developer passionate about cloud-native systems and API design.",
+      "profileImage": "https://dummyimage.com/480x360/0f766e/ffffff.png&text=Rohan",
+      "batch": "2024",
+      "specialization": "Information Technology",
+      "skills": ["Node.js", "Express", "PostgreSQL", "Docker"],
+      "projects": [
+        {
+          "id": 1,
+          "title": "Placement Tracker",
+          "description": "A placement workflow platform for students, mentors, and recruiters.",
+          "technologies": ["Node.js", "React", "PostgreSQL"],
+          "github": "https://github.com/example/placement-tracker",
+          "demo": "https://example.com/placement-tracker",
+          "image": "https://dummyimage.com/640x360/115e59/ffffff.png&text=Placement+Tracker"
+        }
+      ]
+    }
+  ]
+}
